@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./font-awesome/css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>FlipKart</title>
+  </head>
+  <body>
+      <!-- Header -->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <div class="header-left">
+          <a href="#">Filpkart</a>
+          <div class="header-left-p">
+            <p>
+              <a href="#">Explore</a
+              ><span>Plus<i class="fas fa-plus"></i></span>
+            </p>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="mx-3 container">
+            <div class="row">
+              <div class="col-md-8">
+                <form class="d-flex flex-row">
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Search...."
+                      aria-label="Search...."
+                      aria-describedby="basic-addon2"
+                    />
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-4">
+                <div class="">
+                  <div class="btn btn-light mx-3">Login</div>
+                  <div class="btn-group mx-4">
+                    <button
+                      type="button"
+                      class="btn btn-primary dropdown-toggle"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      More
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Separated link</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <button class="btn btn-primary">
+                    <i class="fas fa-cart-arrow-down"></i> Cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </nav>
+    </section>
+
+      <!-- Catgoery -->
+
+        <div class="container-fluid ">
+
+    <section>  
+      <div class="row">
+        <div class="col-md-2  text-center" style="cursor: pointer;">
+          <img
+            src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100"
+            alt=""
+            height="70px"
+            width="70px"
+          /><br />
+          <small><strong>Grocery</strong><i class="fas fa-sort-down"></i></small>
+        </div>
+
+        <div class="col-md-2  text-center" style="cursor: pointer;">
+          <img
+            src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100"
+            alt=""
+            height="70px"
+            width="70px"
+          /><br />
+          <small><strong>Mobiles</strong><i class="fas fa-sort-down"></i></small>
+        </div>
+        <div class="col-md-2  text-center" style="cursor: pointer;">
+          <img
+            src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100"
+            alt=""
+            height="70px"
+            width="70px"
+          /><br />
+          <small><strong>Fashion</strong><i class="fas fa-sort-down"></i></small>
+        </div>
+        <div class="col-md-2  text-center" style="cursor: pointer;">
+          <img
+            src="https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100"
+            alt=""
+            height="70px"
+            width="70px"
+          /><br />
+          <small><strong>Electronics</strong><i class="fas fa-sort-down"></i></small>
+        </div>
+        <div class="col-md-2  text-center" style="cursor: pointer;">
+          <img
+            src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100"
+            alt=""
+            height="70px"
+            width="70px"
+          /><br />
+          <small><strong>Top Offer</strong><i class="fas fa-sort-down"></i></small>
+        </div>
+        <div class="col-md-2 text-center" style="cursor: pointer;">
+          <img
+            src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100"
+            alt=""
+            height="70px"
+            width="70px"
+          /><br />
+          <small><strong>Home</strong><i class="fas fa-sort-down"></i></small>
+        </div>
+        
+      </div>
+    </section>
+
+      <!-- Banner -->
+    <section>
+      <div class="row">
+        <div class="col-md-12">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="./filpkart-img/slide2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./filpkart-img/slide3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./filpkart-img/slide1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <br/>
+
+      <!-- mobile  -->
+    <section>
+      <div class="row">
+      <div class="col-md-10">
+        <div class="card">
+            <div class="row">
+          <div class="col d-flex justify-content-between">
+            <div class="mx-3 my-4"><h5>Mobiles</p></div>
+           
+            <div >
+              <button class="btn btn-primary my-4 mx-4" >View All</button>
+            </div>
+          </div>
+        </div>
+        <br/>
+        <div class="row ">
+        <div class="col-md-3 comman-col text-center imghover">
+          <img 
+          
+            src="https://rukminim1.flixcart.com/image/312/312/ktbu6q80/mobile/q/g/q/8i-rmx3151-realme-original-imag6zhnbsuhcqny.jpeg?q=70"
+            alt="mobile"
+            class=""
+          /><br />
+          <small><strong>Realme 8i</strong></small><br>
+          <small class="text-success"><strong>Best Battery Phone </strong></small><br>
+          <small class="text-muted"><strong>Best Seller</strong></small>
+          <h5>Now <i class="fas fa-rupee-sign"></i> 13,999</h5>
+        </div>
+
+        <div class="col-md-3 comman-col text-center imghover">
+          <img 
+          
+            src="https://rukminim1.flixcart.com/image/312/312/knoxnrk0/mobile/s/d/d/g40-fusion-panv0002in-panv0006in-panv0010in-motorola-original-imag2aqcxrhhuwfh.jpeg?q=70"
+            alt="mobile"
+            class=""
+          /><br />
+          <small><strong>MOTOROLA G40 Fusion</strong></small><br>
+          <small class="text-success"><strong>Best Battery Phone </strong></small><br>
+          <small class="text-muted"><strong>Best Seller</strong></small>
+          <h5>Now <i class="fas fa-rupee-sign"></i> 12,999</h5>
+        </div>
+
+        <div class="col-md-3 comman-col text-center imghover">
+          <img 
+          
+            src="https://rukminim1.flixcart.com/image/312/312/kpmy8i80/mobile/x/q/n/m3-pro-5g-mzb0956in-poco-original-imag3th5e4thsxjt.jpeg?q=70"
+            alt="mobile"
+            class=""
+          /><br />
+          <small><strong>POCO M3 Pro 5G</strong></small><br>
+          <small class="text-success"><strong>Best Battery Phone </strong></small><br>
+          <small class="text-muted"><strong>Best Seller</strong></small>
+          <h5>Now <i class="fas fa-rupee-sign"></i> 14,499</h5>
+        </div>
+       
+        <div class="col-md-3 comman-col text-center imghover">
+          <img 
+          
+            src="https://rukminim1.flixcart.com/image/312/312/kn22m4w0/mobile/a/q/8/galaxy-f12-sm-f127gzgiins-samsung-original-imagftmjw3xqg4yk.jpeg?q=70"
+            alt="mobile"
+            class=""
+          /><br />
+          <small><strong>SAMSUNG Galaxy F12</strong></small><br>
+          <small class="text-success"><strong>Best Battery Phone </strong></small><br>
+          <small class="text-muted"><strong>Best Seller</strong></small>
+          <h5>Now <i class="fas fa-rupee-sign"></i> 13,999</h5>
+        </div>
+       
+      </div>
+        </div>
+      </div>
+      <div class="col card" style="cursor: pointer;">
+        <img src="https://rukminim1.flixcart.com/flap/464/708/image/633789f7def60050.jpg?q=70" height="365px" width="auto"/>
+      </div>
+      </div>
+    </section>
+    
+    
+    <!-- Headphone and speaker -->
+    <section>
+      <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+            <div class="row">
+          <div class="col d-flex justify-content-between">
+            <div class="mx-3 mt-2"><h5>Headphone and speaker</p></div>
+           
+            <div >
+              <button class="btn btn-primary mt-2 mx-4" >View All</button>
+            </div>
+          </div>
+        </div>
+        <hr/>
+
+        <div class="row ">
+          
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/612/612/kk4c13k0/headphone/1/x/c/level-u2-eo-b3300-samsung-original-imafzj6jtsbdbyuz.jpeg?q=70"
+              alt="Headphone and speaker"
+              class=""
+            /><br />
+            <small><strong>SAMSUNG</strong></small><br>
+            <small class="text-success"><strong>UP tp 70%off</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 2,999</h5>
+          </div>
+
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/416/416/kingqkw0-0/speaker/mobile-tablet-speaker/s/8/i/stone-350-boat-original-imafyebfuaumdezs.jpeg?q=70"
+              alt="Headphone and speaker"
+              class=""
+            /><br />
+            <small><strong>Boat</strong></small><br>
+            <small class="text-success"><strong>UP tp 70%off</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 13,499</h5>
+          </div>
+
+       <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/416/416/jydaqa80/speaker/home-audio-speaker/n/s/c/zebronics-bt4440rucf-original-imaeafwzccgtczx8.jpeg?q=70"
+              alt="Headphone and speaker"
+              class=""
+            /><br />
+            <small><strong>ZEBRONICS</strong></small><br>
+            <small class="text-success"><strong>UP tp 70%off</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 1,399</h5>
+          </div>
+       
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/416/416/ko0d6kw0/speaker/home-theatre/o/i/g/mms8085b-94-philips-original-imag2k3tn8zrgw4f.jpeg?q=70"
+              alt="Headphone and speaker"
+              class=""
+            /><br />
+            <small><strong>Philips</strong></small><br>
+            <small class="text-success"><strong>UP tp 70%off</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 1,999</h5>
+          </div>
+
+         <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/416/416/ksw4ccw0/headphone/w/g/r/rockerz-450-boat-original-imag6cqqh49wjfy5.jpeg?q=70"
+              alt="Headphone and speaker"
+              class=""
+            /><br />
+            <small><strong>Boat Rokerzer</strong></small><br>
+            <small class="text-success"><strong>UP tp 70%off</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 3,999</h5>
+          </div>
+          
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/416/416/ksqeky80/speaker/laptop-desktop-speaker/7/6/b/zeb-vita-plus-zebronics-original-imag68dqrgwauss7.jpeg?q=70"
+              alt="Headphone and speaker"
+              class=""
+            /><br />
+            <small><strong>ZEBRONICS</strong></small><br>
+            <small class="text-success"><strong>UP tp 70%off</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 999</h5>
+          </div>
+      
+      </div>
+        </div>
+      </div>
+      
+      </div>
+    </section>
+    
+    
+    <!-- Mens Clothing -->
+    <section>
+      <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+            <div class="row">
+          <div class="col d-flex justify-content-between">
+            <div class="mx-3 mt-2"><h5>Mens Clothing</p></div>
+           
+            <div >
+              <button class="btn btn-primary mt-2 mx-4" >View All</button>
+            </div>
+          </div>
+        </div>
+        <hr/>
+
+        <div class="row ">
+          
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/800/960/kwdv3bk0/trouser/3/n/s/32-rmts04278-g6-raymond-original-imag92qvgbkn2f68.jpeg?q=50"
+              alt="Mens Clothing"
+              class=""
+            /><br />
+            <small><strong>Raymond Trousers</strong></small><br>
+            <small class="text-success"><strong>UP tp 50%off</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 999</h5>
+          </div>
+
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/800/960/jvtujrk0/shirt/q/3/d/42-2220378-roadster-original-imafgmu8thzsxhjh.jpeg?q=50"
+              alt="Mens Clothing"
+              class=""
+            /><br />
+            <small><strong>Roadster Shirt</strong></small><br>
+            <small class="text-success"><strong>UP tp 50%off</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 1,499</h5>
+          </div>
+
+       <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/800/960/kw9krrk0/t-shirt/p/l/w/-original-imag8zgxh27wj5pg.jpeg?q=50"
+              alt="Mens Clothing"
+              class=""
+            /><br />
+            <small><strong>ADIDAS T-Shirt</strong></small><br>
+            <small class="text-success"><strong>UP tp 50%off</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 2,399</h5>
+          </div>
+       
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/800/960/ktyp8cw0/shirt/v/v/o/m-dtss21sh011b-ducati-original-imag76tt8knysvbn.jpeg?q=50"
+              alt="Mens Clothing"
+              class=""
+            /><br />
+            <small><strong>DUCATI Shirt</strong></small><br>
+            <small class="text-success"><strong>UP tp 50%off</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 1,599</h5>
+          </div>
+
+         <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/800/960/k687wy80/ethnic-set/h/h/t/36-mentific-black-mentific-original-imafzqaza6hdgpvh.jpeg?q=50"
+              alt="Mens Clothing"
+              class=""
+            /><br />
+            <small><strong>Kurta</strong></small><br>
+            <small class="text-success"><strong>UP tp 50%off</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 999</h5>
+          </div>
+          
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/469/563/ke0a7ww0-0/jean/b/w/8/28-11274476-roadster-original-imafusgzfqds3hmz.jpeg?q=50"
+              alt="Mens Clothing"
+              class=""
+            /><br />
+            <small><strong>Jeans</strong></small><br>
+            <small class="text-success"><strong>UP tp 50%off</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 2,499</h5>
+          </div>
+      
+      </div>
+        </div>
+      </div>
+      
+      </div>
+    </section>  
+
+
+    <!-- Home-Decore -->
+    <section>
+      <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+            <div class="row">
+          <div class="col d-flex justify-content-between">
+            <div class="mx-3 mt-2"><h5>Home Decor and Furniture</p></div>
+           
+            <div >
+              <button class="btn btn-primary mt-2 mx-4" >View All</button>
+            </div>
+          </div>
+        </div>
+        <hr/>
+
+        <div class="row ">
+          
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+            src="https://rukminim1.flixcart.com/image/416/416/ktrk13k0/bed-mattress/m/r/q/normal-top-double-6-48-75-original-orthopedic-gel-memory-foam-original-imag7fg2pfcjav7k.jpeg?q=70" 
+            alt="Home-Decore"
+              class=""
+            /><br />
+            <small><strong>Mettres</strong></small><br>
+            <small class="text-success"><strong>Home-Decore</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 2,999</h5>
+          </div>
+
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+            src="https://rukminim1.flixcart.com/image/416/416/krkyt8w0/office-study-chair/l/d/s/pp-polypropylene-marcozy-001-savya-home-original-imag5cchhnrjush4.jpeg?q=70" 
+            alt="Home-Decore"
+              class=""
+            /><br />
+            <small><strong>Arm Chair</strong></small><br>
+            <small class="text-success"><strong>Home-Decore</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 3,499</h5>
+          </div>
+
+       <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+            src="https://rukminim1.flixcart.com/image/416/416/ksuowi80/coffee-table/o/t/d/58-5-pp-41-1-55-dt-bk-esquire-black-47-original-imag6bnyn6jafbfz.jpeg?q=70" 
+            alt="Home-Decore"
+              class=""
+            /><br />
+            <small><strong>Coffee Table</strong></small><br>
+            <small class="text-success"><strong>Home-Decore</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 3,399</h5>
+          </div>
+       
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+            src="https://rukminim1.flixcart.com/image/416/416/k6l2vm80/computer-table/z/y/a/mdf-fk-28-limraz-furniture-brown-original-imafzy9ytkbegxg4.jpeg?q=70" 
+            alt="Home-Decore"
+              class=""
+            /><br />
+            <small><strong>Study Table</strong></small><br>
+            <small class="text-success"><strong>Home-Decore</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 4,999</h5>
+          </div>
+
+         <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+            src="https://rukminim1.flixcart.com/image/416/416/k4d27ww0/wardrobe-closet/y/a/9/particle-board-fk6002-flipkart-perfect-homes-espresso-original-imafna58nrgvxua9.jpeg?q=70" 
+            alt="Home-Decore"
+              class=""
+            /><br />
+            <small><strong>Wardrobe</strong></small><br>
+            <small class="text-success"><strong>Home-Decore</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 3,999</h5>
+          </div>
+          
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/416/416/ksqeky80/speaker/laptop-desktop-speaker/7/6/b/zeb-vita-plus-zebronics-original-imag68dqrgwauss7.jpeg?q=70"
+              alt="Headphone and speaker"
+              class=""
+            /><br />
+            <small><strong>Entertainment Unit</strong></small><br>
+            <small class="text-success"><strong>Home-Decore</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 7,999</h5>
+          </div>
+      
+      </div>
+        </div>
+      </div>
+      
+      </div>
+    </section>
+
+
+    <!-- Tranding Offer -->
+    <section>
+      <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+            <div class="row">
+          <div class="col d-flex justify-content-between">
+            <div class="mx-3 mt-2"><h5>Tranding Offer</p></div>
+           
+            <div >
+              <button class="btn btn-primary mt-2 mx-4" >View All</button>
+            </div>
+          </div>
+        </div>
+        <hr/>
+
+        <div class="row ">
+          
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+            src="https://rukminim1.flixcart.com/image/469/563/kn7sdjk0/shoe/v/j/r/6-370790-6-puma-quarry-peacoat-tigerlily-original-imagfxcywtb9ej56.jpeg?q=50" 
+            alt="Tranding"
+              class=""
+            /><br />
+            <small><strong>Puma</strong></small><br>
+            <small class="text-success"><strong>Tranding Offer</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 5,499</h5>
+          </div>
+
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+            src="https://rukminim1.flixcart.com/image/469/563/kh5607k0/backpack/f/v/x/casual-college-tution-bag-bkp-135139-backpack-adamson-22-original-imafx7s5hhuyahxz.jpeg?q=50" 
+            alt="Tranding"
+              class=""
+            /><br />
+            <small><strong>ADAMSON Bag</strong></small><br>
+            <small class="text-success"><strong>Tranding Offer</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 1,499</h5>
+          </div>
+
+       <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+            src="https://rukminim1.flixcart.com/image/469/563/keaaavk0-0/sari/b/a/t/free-jl-peacock-4-purple-ab-pisara-unstitched-original-imafvy38fenjun5u.jpeg?q=50" 
+            alt="Tranding"
+              class=""
+            /><br />
+            <small><strong>Sari</strong></small><br>
+            <small class="text-success"><strong>Tranding Offer</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 1,499</h5>
+          </div>
+       
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/469/563/jyeq64w0/watch/s/k/9/1514gtw-timewear-original-imafgkcsygbfdczr.jpeg?q=50" 
+              alt="Tranding"
+              class=""
+            /><br />
+            <small><strong>Watch</strong></small><br>
+            <small class="text-success"><strong>Tranding Offer</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 999</h5>
+          </div>
+
+         <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/312/312/krz97rk0/washing-machine-new/g/2/4/diva-aqua-vx-ifb-original-imag5ngqvnsgwxhy.jpeg?q=70" 
+              alt="Tranding"
+              class=""
+            /><br />
+            <small><strong>Washing Machine</strong></small><br>
+            <small class="text-success"><strong>Tranding Offer</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 999</h5>
+          </div>
+          
+          <div class="col-md-2 comman-col text-center imghover">
+            <img 
+            
+              src="https://rukminim1.flixcart.com/image/469/563/kjym9ow0/hand-messenger-bag/s/g/t/women-s-pu-leather-handbag-and-sling-bags-combo-of-3-grey-embdry-original-imafzeyztetpuyjf.jpeg?q=50" 
+              alt="Tranding"
+              class=""
+            /><br />
+            <small><strong>Woman Hand-bag</strong></small><br>
+            <small class="text-success"><strong>Tranding Offer</strong></small><br>
+            <small class="text-muted"><strong>Best Seller</strong></small>
+            <h5>Now <i class="fas fa-rupee-sign"></i> 1,999</h5>
+          </div>
+      
+      </div>
+        </div>
+      </div>
+      
+      </div>
+    </section>  
+    
+    </div>
+
+
+        
+    <!-- Footer -->
+  <footer class="bg-dark text-white">
+
+    <div class="container p-4">
+    <!-- Details -->
+    <section class="mb-4">
+      
+      
+      <a style="color: #878787;
+      cursor: pointer;
+      text-align: left;
+      padding: 10px 0px;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;" href="#">ABOUT</a></a></a>
+
+      
+      <a style="color: #878787;
+      cursor: pointer;
+      text-align: left;
+      padding: 10px 0px;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;" href="#">HELP</a></a>
+
+      
+      <a style="color: #878787;
+      cursor: pointer;
+      text-align: left;
+      padding: 10px 0px;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;" href="#">POLICY</a></a>
+
+      
+      <a style="color: #878787;
+      cursor: pointer;
+      text-align: left;
+      padding: 10px 0px;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;" href="#">SOCIAL</a></a>
+
+    </section>
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <div class="footer-heading">
+                <p>Mail Us:</p>
+            </div>
+            <div class="footer-list">
+                <p>Flipkart Internet Private Limited,
+                    Buildings Alyssa, Begonia,
+                    Clove Embassy Tech Village,
+                    Outer Ring Road, Devarabeesanahalli Village,  
+                    Bengaluru, 560103,
+                    Karnataka, India</p>
+            </div>
+            <div class="footer-heading">
+              <p>Registered Office Address:</p>
+          </div>
+          <div class="footer-list-address">
+            <p>Flipkart Internet Private Limited,
+              Buildings Alyssa, Begonia &
+              Clove Embassy Tech Village,
+              Outer Ring Road, Devarabeesanahalli Village,
+              Bengaluru, 560103,
+              Karnataka, India
+              CIN : U51109KA2012PTC066107
+              Telephone:<span>1800 202 9898</span></p>
+    </section>
+    <!-- Section: Text -->
+    </div>
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); display: flex;">
+    <div class="footer-raw2-col">
+      <p><i class="fas fa-shopping-bag"></i>Sell On Flipkart</p>
+  </div>
+  <div class="footer-raw2-col">
+      <p><i class="fas fa-star"></i>Advertise</p>
+  </div>
+  <div class="footer-raw2-col">
+      <p><i class="fas fa-gift"></i>Gift Cards</p>
+  </div>
+  <div class="footer-raw2-col">
+      <p><i class="fas fa-question-circle"></i>Help Center</p>
+  </div>
+    </div>
+  </footer>
+
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
